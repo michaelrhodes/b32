@@ -5,7 +5,7 @@ non-rfc3548 base32
 
 ## install
 ```sh
-npm install michaelrhodes/b32
+npm install https://pkg.mkr.sx/b32/1.0.0.tgz
 ```
 
 ## use
