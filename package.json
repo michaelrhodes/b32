@@ -1,0 +1,13 @@
+{
+  "name": "b32",
+  "version": "0.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "devDependencies": {
+    "dexy": "https://pkg.mkr.sx/dexy/1.0.6.tgz",
+    "utf8": "https://pkg.mkr.sx/utf8/2.0.0.tgz"
+  },
+  "scripts": {
+    "test": "dexy test"
+  }
+}
