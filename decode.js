@@ -25,6 +25,7 @@ function decode (string) {
   var i = 0
   while (i < l) {
     val = lookup[string[i++]]
+    if (!val) return null
     val <<= 3, b |= val >>> skip, skip += 5
     if (skip < 8) continue
     array[array.length] = b, skip -= 8
